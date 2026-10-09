@@ -1,0 +1,11 @@
+{
+  "resource_pack_name": "minotaur_mod",
+  "texture_data": {
+    "oblivion_sword": {
+      "textures": "textures/items/oblivion_sword"
+    },
+    "aeternus_sword": {
+      "textures": "textures/items/aeternus_sword"
+    }
+  }
+}

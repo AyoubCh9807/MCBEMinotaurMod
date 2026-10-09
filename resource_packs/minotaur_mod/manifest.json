@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Minotaur Mod Resources",
+    "description": "Resources for the Minotaur Mod.",
+    "uuid": "8636da5e-6086-4334-bd0a-270f28eb1a3f",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "f162273e-9fdd-4173-90ca-8ef8bcce6e07",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
