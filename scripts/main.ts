@@ -1,15 +1,24 @@
-import { world, system } from "@minecraft/server";
+import { world } from "@minecraft/server";
 
-let instanceTick = 0;
+world.afterEvents.entityHurt.subscribe((event) => {
+  const mob = event.hurtEntity;
+  if (mob.typeId !== "aop:minotaur") return;
 
-world.sendMessage("Minotaur mod loaded!");
+  const health = mob.getComponent("minecraft:health");
+  if (!health || health.currentValue <= 0) return;
 
-function mainTick() {
-  if (instanceTick % 100 === 0) {
-    world.sendMessage("Minotaur mod tick: " + instanceTick);
+  const ratio = health.currentValue / health.effectiveMax;
+
+  if (ratio <= 0.5 && !mob.hasTag("raged") && mob.hasTag("mad")) {
+    mob.addTag("raged");
+    mob.addEffect("strength", 600, { amplifier: 2 });
+    mob.addEffect("speed", 600, { amplifier: 2 });
+    world.sendMessage("§cThe Minotaur is enraged!");
   }
-
-  instanceTick++;
-}
-
-system.runInterval(mainTick);
+  if (ratio <= 0.9 && !mob.hasTag("mad")) {
+    mob.addTag("mad");
+    mob.addEffect("strength", 600, { amplifier: 1 });
+    mob.addEffect("speed", 600, { amplifier: 1 });
+    world.sendMessage("§cThe Minotaur is getting angry...");
+  }
+});

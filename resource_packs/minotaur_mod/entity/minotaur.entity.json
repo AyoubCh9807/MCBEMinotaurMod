@@ -3,16 +3,31 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "aop:minotaur",
-      "materials": { "default": "entity_alphatest" },
-      "textures": { "default": "textures/entity/minotaur" },
-      "geometry": { "default": "geometry.minotaur" },
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/minotaur"
+      },
+      "geometry": {
+        "default": "geometry.minotaur"
+      },
       "animations": {
         "idle": "animation.minotaur.idle",
         "running": "animation.minotaur.running",
         "general": "controller.animation.minotaur"
       },
-      "scripts": { "animate": [ "general" ] },
-      "render_controllers": [ "controller.render.minotaur" ]
+      "particle_effects": {
+        "dust": "aop:minotaur_dust"
+      },
+      "scripts": {
+        "animate": [
+          "general"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.minotaur"
+      ]
     }
   }
 }

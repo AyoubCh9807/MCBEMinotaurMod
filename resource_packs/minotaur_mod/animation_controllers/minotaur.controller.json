@@ -19,6 +19,11 @@
           "animations": [
             "running"
           ],
+          "particle_effects": [
+            {
+              "effect": "dust"
+            }
+          ],
           "transitions": [
             {
               "idle": "query.modified_move_speed < 0.05"
