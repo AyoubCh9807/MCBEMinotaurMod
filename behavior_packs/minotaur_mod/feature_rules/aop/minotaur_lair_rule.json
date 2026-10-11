@@ -1,0 +1,47 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "aop:minotaur_lair_rule",
+      "places_feature": "aop:minotaur_lair_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "nether"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": {
+        "numerator": 1,
+        "denominator": 100
+      },
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [
+          35,
+          100
+        ]
+      }
+    }
+  }
+}
