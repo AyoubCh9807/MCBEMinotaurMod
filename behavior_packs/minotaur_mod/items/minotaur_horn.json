@@ -1,0 +1,23 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "aop:minotaur_horn",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 8,
+      "minecraft:icon": {
+        "textures": {
+          "default": "minotaur_horn"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "The Minotaur's Horn"
+      },
+      "minecraft:damage": 2
+    }
+  }
+}
