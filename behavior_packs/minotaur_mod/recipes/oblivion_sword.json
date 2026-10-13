@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "aop:oblivion_sword_recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " H ",
+      " H ",
+      " S "
+    ],
+    "key": {
+      "H": {
+        "item": "aop:minotaur_horn"
+      },
+      "S": {
+        "item": "minecraft:diamond_sword"
+      }
+    },
+    "unlock": [
+      {
+        "item": "aop:minotaur_horn"
+      }
+    ],
+    "result": {
+      "item": "oblivion:oblivion_sword"
+    }
+  }
+}

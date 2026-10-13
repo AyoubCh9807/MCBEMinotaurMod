@@ -4,9 +4,6 @@
     "oblivion_sword": {
       "textures": "textures/items/oblivion_sword"
     },
-    "aeternus_sword": {
-      "textures": "textures/items/aeternus_sword"
-    },
     "minotaur_horn": {
       "textures": "textures/items/minotaur_horn"
     }

@@ -5,7 +5,7 @@
       "identifier": "oblivion:oblivion_sword",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.sword"
+        "group": "minecraft:itemGroup.name.sword"
       }
     },
     "components": {
@@ -15,10 +15,14 @@
           "default": "oblivion_sword"
         }
       },
+      "minecraft:cooldown": {
+        "category": "golden_beam",
+        "duration": 3
+      },
       "minecraft:display_name": {
         "value": "Oblivion Sword"
       },
-      "minecraft:damage": 20,
+      "minecraft:damage": 15,
       "minecraft:durability": {
         "max_durability": 1000
       },

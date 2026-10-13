@@ -5,7 +5,7 @@
       "identifier": "oblivion:aeternus_sword",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.sword"
+        "group": "minecraft:itemGroup.name.sword"
       }
     },
     "components": {
