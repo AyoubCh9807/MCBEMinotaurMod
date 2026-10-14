@@ -131,6 +131,21 @@ minotaur_mod/
 | Minecraft Bedrock | 1.21.x |
 | `@minecraft/server` | 1.15.0 |
 
+## Credits & Attribution
+
+### Minotaur Model
+
+The Minotaur model used in this addon was created by **[@eanncrod](https://blockbenchworkshop.com/model/eanncrod/minotaur)** and sourced from [Blockbench Workshop](https://blockbenchworkshop.com/model/eanncrod/minotaur).
+
+The model is licensed under **[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)**, which permits use, modification, and redistribution with appropriate credit.
+
+* **Creator:** Eanncrod
+* **Source:** [Minotaur on Blockbench Workshop](https://blockbenchworkshop.com/model/eanncrod/minotaur)
+* **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+The model has been incorporated into *Minotaur's Oblivion* for use in the Minecraft Bedrock addon. Any modifications made to the original model are attributable to this project.
+
+
 ## Contributing
 
 Issues and pull requests are welcome. For larger changes, please open an issue first to discuss what you'd like to change.
@@ -138,11 +153,6 @@ Issues and pull requests are welcome. For larger changes, please open an issue f
 ## License
 
 Distributed under the MIT License. See `LICENSE` for details.
-
-## Author
-
-**[Your Name]**
-[GitHub](https://github.com/<your-username>) · [LinkedIn](https://linkedin.com/in/<your-handle>) · [Portfolio](https://your-site.com)
 
 ---
 
